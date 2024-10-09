@@ -1,0 +1,137 @@
+:root{
+    --pelorous-color:  #3eb8bd;
+    --offWhite:   #f7fdfd;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.bg-Pelorous{
+    background-color: #3eb8bd;
+}
+.bg-offwhite{
+    background-color: #f7fdfd;
+}
+.text-Pelorous{
+    color:#3eb8bd !important;
+}
+.logo-size{
+    width: 150px;
+}
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .navbar-nav .nav-link.active{
+    color:var(--pelorous-color);
+  }
+  .carousel-indicators [data-bs-target] {
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ margin: 5px;
+
+}
+.carousel-indicators .active{
+background-color: var(--pelorous-color);
+}
+.carousel-caption{
+    bottom: 40%;
+    border-top: 5px solid #3eb8bd;
+    background-color: rgba(255, 255, 255, 0.698);
+    
+}
+.hero-height{
+    height: calc(100vh - 106vh);
+}
+.nav-margin{
+    margin-top: 40px;
+}
+h2{
+    position: relative;
+    width: max-content;
+}
+h2::before{
+    content: "";
+    background-color: #3eb8bd;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.CardIcon{
+    font-size: 2rem;
+    color: #3eb8bd;
+}
+.IconCercile{
+    width: 60px;
+    height: 60px;
+    border: 1px none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.IconCercile-2{
+    width: 60px;
+    height: 60px;
+    border: 1px dashed #3eb8bd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h4{
+    position: relative;
+    width: max-content;
+}
+section h4::before{
+    content: "";
+    background-color: #3eb8bd;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.a-label{
+    color: #3eb8bd;
+    text-decoration: none;
+}
+.nav-pills .nav-link.active{
+    background-color:unset;
+    color: #3eb8bd;
+    border-radius: 0px;
+    border-right: 3px solid #3eb8bd;
+}
+
+.nav-pills .nav-link{
+    background-color:unset;
+    color: gray;
+    border-radius: 0px;
+    border-right: 3px solid gray;
+}
+.text-gray{
+    color: gray;
+}
+.social-icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media (max-width:576px) and (min-width:300px){
+    .nav-1{
+        display: none;
+    }
+    .nav-margin{
+        margin-top: 0px;
+    }
+    .carousel-caption{
+        bottom: 20%;
+    }
+    
+}
+
